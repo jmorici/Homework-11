@@ -1,0 +1,147 @@
+html, body {
+min-height: 100vh;
+min-height: 100%;
+text-align: left;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background: black;
+}
+
+.container {
+width: 100%;
+padding: 0px;
+margin: 0px;
+}
+
+.container-fluid, .row {
+margin: 0px;
+padding: 0px;
+}
+
+.header {
+font-weight: bold;
+color: #333;
+}
+
+h1 {
+font-size: 30px;
+padding-bottom: 40px;
+color: #FFF; 
+font-weight: normal; 
+text-shadow: #000 2px 2px 3px;
+}
+
+h3 {
+font-size: 24px;
+padding: 0px;
+padding-bottom: 10px;
+}
+
+.weather-header {
+padding: 0px;
+padding-bottom: 20px;
+}
+
+h5 {
+font-size: 18px;
+padding: 10px 0px;
+}
+
+h1, .button-p {
+margin: auto;
+display: block;
+text-align: center;
+}
+
+.col-xs-12 {
+padding: 0px;
+}
+
+.card {
+margin: 0px;
+padding: 0px 2%;
+}
+
+.news-weather, .feature-fact {
+background: #FFF;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+
+.news, .current-weather {
+padding: 40px 4%;
+background: #e4e9ef;
+background: #FFF;
+margin: 0px;
+}
+
+.feature-fact {
+border-top: 7px solid #e4e9ef;
+/* border-top: 4px solid rgb(75, 106, 141); */
+}
+
+.featured-image, .mars-facts {
+padding: 40px 4%;
+background: #e4e9ef;
+background: #FFF;
+margin: 0px;
+}
+
+.card-img-bottom, .table-responsive {
+margin-top: 20px;
+}
+
+.hemispheres {
+margin-top: 50px;
+margin-left: 15px;
+margin-right: 15px;
+margin-bottom: 40px;
+}
+
+.card-hemispheres {
+padding: 15px;
+margin: 0px;
+width: 100%;
+display: block;
+margin: auto;
+}
+
+.header-hemispheres {
+text-align: center;
+color: #FFF; 
+text-shadow: #000 2px 2px 3px;
+padding-bottom: 20px;
+}
+
+.card-body-hemisphere {
+border: 1px solid rgb(200, 200, 200);
+padding: 2px;
+background: #fff;
+}
+
+.hemisphere-title {
+margin-left: 10px;
+}
+
+img {
+width: 100%;
+}
+
+th {
+font-weight: bold;
+}
+
+th, td {
+text-align: center;
+}
+
+.jumbotron {
+background-image: url("https://astrogeology.usgs.gov/images/backgrounds/mars.jpg");
+background-size: cover;
+padding: 80px 0px;
+/* background: #4b6a8d; */
+margin: 0px;
+}
